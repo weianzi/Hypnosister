@@ -8,6 +8,12 @@
 
 #import "BNRHypnosisView.h"
 
+@interface BNRHypnosisView()
+
+@property (strong, nonatomic) UIColor *circleColor;
+
+@end
+
 @implementation BNRHypnosisView
 
 /*
@@ -23,6 +29,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor =[UIColor clearColor];
+        self.circleColor = [UIColor lightGrayColor];
     }
     return self;
 }
@@ -46,6 +53,7 @@
     
     for (float currentRadius = MaxRadius; currentRadius > 0; currentRadius -=20) {
         [path moveToPoint:CGPointMake(center.x + currentRadius, center.y)];
+        //ssss
         [path addArcWithCenter:center
                         radius:currentRadius
                     startAngle:0.0
