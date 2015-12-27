@@ -15,6 +15,7 @@
 		A10305511C26EA3E00EA0F23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A103054F1C26EA3E00EA0F23 /* LaunchScreen.xib */; };
 		A103055D1C26EA3E00EA0F23 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A103055C1C26EA3E00EA0F23 /* HypnosisterTests.m */; };
 		A10305681C26EAF100EA0F23 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = A10305671C26EAF100EA0F23 /* BNRHypnosisView.m */; };
+		A1C3145F1C3037AA00806AA8 /* i-form-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C3145E1C3037AA00806AA8 /* i-form-settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		A103055C1C26EA3E00EA0F23 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
 		A10305661C26EAF100EA0F23 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
 		A10305671C26EAF100EA0F23 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		A1C3145E1C3037AA00806AA8 /* i-form-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "i-form-settings.png"; path = "../../../../../var/folders/qr/4yjfy9kx2kv4k_7gt6w_jjwm0000gn/T/(null)/khk/KHKService-V2/WebRoot/TV/img/i-form-settings.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				A10305481C26EA3E00EA0F23 /* ViewController.m */,
 				A103054A1C26EA3E00EA0F23 /* Main.storyboard */,
 				A103054D1C26EA3E00EA0F23 /* Images.xcassets */,
+				A1C3145E1C3037AA00806AA8 /* i-form-settings.png */,
 				A103054F1C26EA3E00EA0F23 /* LaunchScreen.xib */,
 				A10305401C26EA3E00EA0F23 /* Supporting Files */,
 			);
@@ -208,6 +211,7 @@
 				A103054C1C26EA3E00EA0F23 /* Main.storyboard in Resources */,
 				A10305511C26EA3E00EA0F23 /* LaunchScreen.xib in Resources */,
 				A103054E1C26EA3E00EA0F23 /* Images.xcassets in Resources */,
+				A1C3145F1C3037AA00806AA8 /* i-form-settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

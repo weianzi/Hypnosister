@@ -63,6 +63,12 @@
     path.lineWidth = 10;
     [[UIColor lightGrayColor] setStroke];
     [path stroke];
+    
+    
+    
+    UIImage *testImg = [UIImage imageNamed:@"i-form-settings"];
+    
+    [testImg drawInRect:CGRectMake(center.x - 50, center.y - 50, 100, 100)];
 }
 
 @end
