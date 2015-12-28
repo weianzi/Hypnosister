@@ -32,7 +32,17 @@
 
 - (void)loadView
 {
-    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] init];
+    CGRect frame = [UIScreen mainScreen].bounds;
+    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] initWithFrame:frame];
+    
+    CGRect textFieldRect = CGRectMake(40, 70, 240, 30);
+    UITextField *textField = [[UITextField alloc] initWithFrame:textFieldRect];
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    textField.placeholder = @"请输入";
+    textField.returnKeyType = UIReturnKeyDone;
+    
+    [backgroundView addSubview:textField];
+    
     self.view = backgroundView;
     
 }
