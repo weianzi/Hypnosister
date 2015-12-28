@@ -16,10 +16,30 @@
 
 @implementation BNRReminderViewController
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil
+                           bundle:nibBundleOrNil];
+    if (self) {
+        self.tabBarItem.title = @"Hypnotize";
+        
+        UIImage *i = [UIImage imageNamed:@"tab-nav-2"];
+        self.tabBarItem.image = i;
+    }
+    
+    return self;
+}
+
 - (IBAction)addReminder:(id)sender
 {
     NSDate *date = self.datePicker.date;
     NSLog(@"setting a reminder for %@", date);
+    
+    UILocalNotification *note = [[UILocalNotification alloc] init];
+    note.alertBody = @"Hypnotize me!";
+    note.fireDate = date;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:note];
 }
 
 - (void)viewDidLoad {

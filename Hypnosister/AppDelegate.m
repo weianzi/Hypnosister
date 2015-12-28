@@ -27,12 +27,21 @@
     
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
     
-    NSBundle *appBundle = [NSBundle mainBundle];
-    BNRReminderViewController *rvc = [[BNRReminderViewController alloc]
-                                      initWithNibName:@"BNRReminderViewController"
-                                               bundle:appBundle];
+    //NSBundle *appBundle = [NSBundle mainBundle];
+    //BNRReminderViewController *rvc = [[BNRReminderViewController alloc]
+    //                                  initWithNibName:@"BNRReminderViewController"
+    //                                           bundle:appBundle];
     
-    self.window.rootViewController = rvc;
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc] init];
+    
+    //self.window.rootViewController = rvc;
+    
+    UITabBarController  *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[hvc, rvc];
+    
+    self.window.rootViewController = tabBarController;
+    
+
     //self.window.rootViewController = [[UIViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
 
@@ -65,6 +74,7 @@
     //secondView.backgroundColor = [UIColor greenColor];
     //[self.window addSubview:secondView];
     //[firstView addSubview:secondView];
+    
     
     [self.window makeKeyAndVisible];
     return YES;

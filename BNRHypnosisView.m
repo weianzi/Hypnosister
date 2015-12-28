@@ -74,8 +74,8 @@
     [[UIColor lightGrayColor] setStroke];
     [path stroke];
     
-    //UIImage *testImg = [UIImage imageNamed:@"logo"];
-    //[testImg drawInRect:CGRectMake(center.x - 63, center.y - 45, 126, 90)];
+    UIImage *testImg = [UIImage imageNamed:@"logo"];
+    [testImg drawInRect:CGRectMake(center.x - 63, center.y - 45, 126, 90)];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
