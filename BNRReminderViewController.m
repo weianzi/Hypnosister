@@ -42,9 +42,17 @@
     [[UIApplication sharedApplication] scheduleLocalNotification:note];
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.datePicker.minimumDate = [NSDate dateWithTimeIntervalSinceNow:60];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSLog(@"BNRReminderView loaded");
+
 }
 
 - (void)didReceiveMemoryWarning {
