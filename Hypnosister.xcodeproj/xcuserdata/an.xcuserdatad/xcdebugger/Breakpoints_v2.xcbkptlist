@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Hypnosister/AppDelegate.m"
-            timestampString = "472901868.476013"
+            timestampString = "473012108.227813"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "@interface AppDelegate()"
             landmarkType = "2">
          </BreakpointContent>

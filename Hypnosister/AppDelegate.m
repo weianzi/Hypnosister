@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "BNRHypnosisView.h"
 #import "BNRHypnosisViewController.h"
+#import "BNRReminderViewController.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -21,8 +24,15 @@
     
     self.window = [[UIWindow alloc] initWithFrame:
                    [[UIScreen mainScreen] bounds]];
+    
     BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
-    self.window.rootViewController = hvc;
+    
+    NSBundle *appBundle = [NSBundle mainBundle];
+    BNRReminderViewController *rvc = [[BNRReminderViewController alloc]
+                                      initWithNibName:@"BNRReminderViewController"
+                                               bundle:appBundle];
+    
+    self.window.rootViewController = rvc;
     //self.window.rootViewController = [[UIViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
 

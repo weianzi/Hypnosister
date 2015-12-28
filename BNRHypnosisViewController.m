@@ -7,12 +7,20 @@
 //
 
 #import "BNRHypnosisViewController.h"
+#import "BNRHypnosisView.h"
 
 @interface BNRHypnosisViewController ()
 
 @end
 
 @implementation BNRHypnosisViewController
+
+- (void)loadView
+{
+    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] init];
+    self.view = backgroundView;
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

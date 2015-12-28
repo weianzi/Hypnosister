@@ -10,9 +10,17 @@
 
 @interface BNRReminderViewController ()
 
+@property (nonatomic, weak) IBOutlet UIDatePicker *datePicker;
+
 @end
 
 @implementation BNRReminderViewController
+
+- (IBAction)addReminder:(id)sender
+{
+    NSDate *date = self.datePicker.date;
+    NSLog(@"setting a reminder for %@", date);
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
