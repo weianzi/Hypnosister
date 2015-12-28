@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BNRHypnosisView.h"
-//sss
+#import "BNRHypnosisViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +21,9 @@
     
     self.window = [[UIWindow alloc] initWithFrame:
                    [[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    BNRHypnosisViewController *hvc = [[BNRHypnosisViewController alloc] init];
+    self.window.rootViewController = hvc;
+    //self.window.rootViewController = [[UIViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
 
     //CGRect firstFrame = CGRectMake(160, 240, 100, 150);

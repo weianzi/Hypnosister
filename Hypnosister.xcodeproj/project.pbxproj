@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581C3D331C310CE000E33CBD /* BNRHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581C3D321C310CE000E33CBD /* BNRHypnosisViewController.m */; };
 		A10305431C26EA3E00EA0F23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A10305421C26EA3E00EA0F23 /* main.m */; };
 		A10305461C26EA3E00EA0F23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A10305451C26EA3E00EA0F23 /* AppDelegate.m */; };
 		A10305491C26EA3E00EA0F23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10305481C26EA3E00EA0F23 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		581C3D311C310CE000E33CBD /* BNRHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisViewController.h; sourceTree = "<group>"; };
+		581C3D321C310CE000E33CBD /* BNRHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisViewController.m; sourceTree = "<group>"; };
 		A103053D1C26EA3E00EA0F23 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10305411C26EA3E00EA0F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A10305421C26EA3E00EA0F23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 		A10305341C26EA3E00EA0F23 = {
 			isa = PBXGroup;
 			children = (
+				581C3D311C310CE000E33CBD /* BNRHypnosisViewController.h */,
+				581C3D321C310CE000E33CBD /* BNRHypnosisViewController.m */,
 				A10305661C26EAF100EA0F23 /* BNRHypnosisView.h */,
 				A10305671C26EAF100EA0F23 /* BNRHypnosisView.m */,
 				A103053F1C26EA3E00EA0F23 /* Hypnosister */,
@@ -229,6 +234,7 @@
 				A10305461C26EA3E00EA0F23 /* AppDelegate.m in Sources */,
 				A10305681C26EAF100EA0F23 /* BNRHypnosisView.m in Sources */,
 				A10305431C26EA3E00EA0F23 /* main.m in Sources */,
+				581C3D331C310CE000E33CBD /* BNRHypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
