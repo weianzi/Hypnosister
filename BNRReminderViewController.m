@@ -1,18 +1,18 @@
 //
-//  BNRHypnosisViewController.m
+//  BNRReminderViewController.m
 //  Hypnosister
 //
-//  Created by an on 15/12/28.
+//  Created by an on 15/12/29.
 //  Copyright (c) 2015年 an. All rights reserved.
 //
 
-#import "BNRHypnosisViewController.h"
+#import "BNRReminderViewController.h"
 
-@interface BNRHypnosisViewController ()
+@interface BNRReminderViewController ()
 
 @end
 
-@implementation BNRHypnosisViewController
+@implementation BNRReminderViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
