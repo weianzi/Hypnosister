@@ -66,9 +66,9 @@
     
     
     
-    UIImage *testImg = [UIImage imageNamed:@"i-form-settings"];
+    UIImage *testImg = [UIImage imageNamed:@"logo"];
     
-    [testImg drawInRect:CGRectMake(center.x - 50, center.y - 50, 100, 100)];
+    [testImg drawInRect:CGRectMake(center.x - 63, center.y - 45, 126, 90)];
 }
 
 @end
